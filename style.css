@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  margin: 0;
+  font-family: Helvetica Neue, Helvetica, Arimo, Liberation Sans, Lucida Grande, sans-serif;
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVzkm7PCAFOJLpjezCu3UGV0lwMsTpKaCprxRaw7bXiWDyo3j6ZKPXWFGgcdHBOWuUcB2C-E0jaMxkFJ5I3GOz-hPmsoNhakq8BCgGk4CwMOLyCEDsi0Sl5P0kDo1gPxnz2lq6zG64FSHe6CEAgbd3-515Xy0G3eTZo6VUuJ63IBJVpl_RqVNVIyJV212Y/s640/alphabet-1168050_640.png");
+  text-align: center;
+  background-color: purple;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  min-height: 100%; 
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Times, Georgia, Linux Libertine, Cambria, serif;
+}
+
+h4 a,
+a:hover,
+a:visited,
+a:active,
+a:link {
+  text-decoration: none;
+  color: darkblue;
+  font-size: 18px;
+  margin-left: 10px;
+  text-shadow: 
+        -1px -1px 0 #ffffff,  
+         1px -1px 0 #ffffff,
+        -1px  1px 0 #ffffff,
+         1px  1px 0 #ffffff;
+}
+
+.pageTitle,
+.titleNote {
+  background-color: rgba(10, 33, 33, 0.5);
+  color: white;
+  padding: 20px;
+}
+
+.search_box,
+.searchSubmit,
+#randomPage {
+  height: 4rem;
+  min-height: 1.2em;
+  line-height: 1.4rem;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 2.2rem auto 1.5em;
+  padding: .5rem 1rem;
+}
+
+.search_box {
+  font-size: 1.5rem;
+  width: 400px;
+  background: #ffffff;
+  border: .5px solid #cccccc;
+  box-shadow: inset 0 0 0 .1em #cccccc;
+  border-radius: .1em;
+}
+
+.searchSubmit,
+#randomPage {
+  font-weight: 100;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #165c91;
+  border: 1px solid #165c91;
+  text-align: center;
+}
+
+#randomPage a {
+  color: #ffffff;
+}
+
+.results {
+  font-size: 2rem;
+  max-width: 800px;
+  background: #ffffff;
+  border: .5px solid #cccccc;
+  box-shadow: inset 0 0 0 .1em #cccccc;
+  border-radius: .1em;
+  padding: 1rem;
+  margin-left: 14rem;
+}
+
+.push {
+  padding-bottom: 10em;
+}
+
+.extract {
+  font-size: 12px;
+}
+
+footer {
+  min-height: 4em;
+  background-color: rgba(10, 33, 33, 0.5);
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  position: fixed;
+  bottom: 0;
+}
